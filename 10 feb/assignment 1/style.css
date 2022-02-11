@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding:0;
+    text-decoration: none;
+    
+}
+.contaner{
+   background-color: aqua;
+   
+   
+   
+}
+ul {
+    display: flex;
+    position: relative;
+    left:39rem;
+    top: -1rem;
+
+}
+ul li{
+    padding: 0 2rem;
+    list-style: none;
+    
+}
+.pic{
+    position: relative;
+    height: 230px;
+}
+.pic img{
+    width: 100px;
+    height: 100px;
+}

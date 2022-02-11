@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding:0;
+}
+header ul li{
+    display: inline;
+    margin: auto;
+    position: relative;
+    left: 250px;
+    top: 15px;
+    padding: 0 1rem;
+    color: azure;
+    font-weight: 600;
+    
+}
+body{
+    background-image: url(./img1.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.name{
+    position: relative;
+    left: 260px;
+    top: 124px;
+    color: white;
+    
+    
+}
+.contaner{
+    font-size: 45px
+    
+}
