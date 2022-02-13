@@ -22,11 +22,3 @@ ul li{
     list-style: none;
     
 }
-.pic{
-    position: relative;
-    height: 230px;
-}
-.pic img{
-    width: 100px;
-    height: 100px;
-}
