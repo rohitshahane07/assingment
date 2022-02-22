@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding:0;
+}
+header{
+    background-color: burlywood;
+    height: 30px;
+
+}
+.menu-name{
+    padding: 0px 17px;
+}
+
+
+a:hover{
+    color: blue;
+    text-decoration:underline
+    
+}
+.dropdown{
+    display: none;
+    border: 1px solid black;
+    width: 70px;
+
+}
+.dropdown-menu:hover > .dropdown{
+    display: block;
+}
+
+.dropdown-menu:hover > .dropdown .another-one{
+    display: block;
+}
+
+.another-dropdown{
+    display: none;
+    border-bottom: 1px solid black; 
+    position: relative;
+     left: 80px;
+    top: -76px; 
+    text-decoration: none;
+}
+
+.another-one-name{
+    text-decoration: none;
+}
+
+.another-one:hover > .another-dropdown{
+    display: initial;
+
+}
+.border{
+    border-bottom: 1px solid black;
+}
