@@ -20,6 +20,10 @@ p{
     border: 1px solid #f0f2f5;
 }
 
+.dp{
+    border-radius: 50px;
+}
+
 
 .who{
     float: right;
