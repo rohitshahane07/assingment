@@ -1,0 +1,43 @@
+body{
+    background-image: url(./background);
+    background-size: cover;
+}
+input{
+    height: 38px;
+    border-radius: 5px;
+    border-style: 1px solid rgb(50,50,50);
+    background-color: #252f3b;
+    color:white
+  
+}
+.width {
+    width: 380px;
+}
+.create{
+    height: 30px;
+    width: 178px;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    text-align: center;
+    background-color:  rgb(200, 200, 225);
+    color:black
+}
+.all-contaner{
+    margin: 100px 50px;
+    
+}
+input:hover{
+    border-color: aqua;
+}
+.create:hover{
+    background-color: rgb(123, 172, 221);
+}
+h2,h5{
+    color: rgb(24, 24, 46);
+
+}
+h1{
+    margin-left: 30px;
+}

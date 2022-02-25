@@ -1,0 +1,32 @@
+img{
+    width: 24px;
+    padding: 0 5px;
+}
+.head{
+    background-color: aqua;
+    width: 296px;
+}
+.chat{
+     /* background-color: green; */
+    width: 296px;
+    height: 400px;
+    overflow: scroll;
+}
+p{
+    background-color: #f0f2f5;
+    display: inline-block;
+    border-radius: 5px;
+    height: 30px; 
+    border: 1px solid #f0f2f5;
+}
+
+.who{
+    float: right;
+}
+input{
+    height: 30px;
+}
+ .chat > div{
+    position: absolute;
+    bottom: 0px;
+}
