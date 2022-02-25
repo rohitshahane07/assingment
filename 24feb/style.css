@@ -1,9 +1,9 @@
 img{
     width: 24px;
-    padding: 0 5px;
+    padding: 0 4px;
 }
 .head{
-    background-color: aqua;
+    background-color: #f0f2f5;
     width: 296px;
 }
 .chat{
@@ -19,6 +19,7 @@ p{
     height: 30px; 
     border: 1px solid #f0f2f5;
 }
+
 
 .who{
     float: right;
