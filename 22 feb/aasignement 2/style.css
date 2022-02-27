@@ -2,9 +2,9 @@
     margin:0;
     padding:0;
 }
-/* body{
-    background-color: rgb(0,100,200);
-} */
+ body{
+    /* background-color: #00a5b8; */
+}
   
 h2{
     margin-top: 10px;
@@ -22,9 +22,12 @@ img{
 h2{
     text-align: center;
 }
-/* h4{
-    display: inline-block;
-} */
+h4{
+    position: fixed;
+    right: 10px;
+    left: 209px;
+    top: 84px;
+} 
 .contaner > div > div {
     float: right;
     margin: 0 130px 0 0;
@@ -36,4 +39,10 @@ h2{
 .contaner{
     margin:92px 51px;
     
+}
+
+p{
+    position: fixed;
+    top:84px;
+    right: 209px;
 }
