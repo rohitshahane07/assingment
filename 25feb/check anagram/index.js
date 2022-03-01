@@ -10,7 +10,7 @@ function Analagram (a,b){
     var convertInarry = a.split('');
     var convertInarryb= b.split('');
     // sort the arry
-    var sorta         = convertInarry.sort('');
+    var sorta         = convertInarry.sort();
     var sortb         = convertInarryb.sort('');
     //  convert into String
     var convertStr_a  = sorta.join('');
