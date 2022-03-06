@@ -1,0 +1,30 @@
+body{
+    background-color: #eaeaea;
+    
+}
+
+button{
+    background-color: white;
+    border: transparent;
+    height: 30px;
+    border-top-right-radius:15px ;
+    border-bottom-right-radius:15px ;
+    border-top-left-radius:15px ;
+    border-bottom-left-radius:15px ;
+}
+
+button:hover{
+    background-color: rgba(100,0,250);
+    cursor: pointer;
+}
+
+h1{
+   
+    
+    height: 50px;
+}
+
+div{
+    float: right;
+    margin: 120px 120px;
+}
