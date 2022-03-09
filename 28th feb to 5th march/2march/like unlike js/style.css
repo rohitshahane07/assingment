@@ -68,16 +68,37 @@ button:active{
     
 }
 
-
-.heart{
-    visibility: hidden;
+.img1{
+    top: 127px;
     position: absolute;
-    height: 50px;
-    width: 50px;
-    left: 76px;
-    top:90px;
+    left: 241px;
+    width: 516px;
+    height: 298px;
+    /* visibility: hidden; */
+    
     
 }
+.this{
+    visibility: hidden;
+}
+.is{
+    visibility: visible;
+}
+
+
+.back{
+    
+    top: 107px;
+    position: absolute;
+    left: 697px;
+    width: 60px;
+    height: 20px;
+    background-color: red;
+    cursor: pointer;
+}
+
+
+
 
 
 

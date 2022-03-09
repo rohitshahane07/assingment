@@ -209,3 +209,13 @@ function rander8(){
     
 }
 
+0
+
+
+   function click_pic(){
+
+   var a = document.getElementById('first_img');
+   a.classList.add('is' )
+
+}
+
