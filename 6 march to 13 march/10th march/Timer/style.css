@@ -1,0 +1,16 @@
+div{
+    text-align: center;
+    margin-top: 15vh;
+    font-size: 6rem;
+}
+button{
+    background-color: rgb(91, 91, 233);
+    height: 48px;
+    width: 129px;
+    color: whitesmoke;
+}
+
+button:hover{
+    background-color: rgb(29, 29, 185);
+    
+}

@@ -1,0 +1,55 @@
+.parent-containar{
+    width: 20vw;
+    border: 1px solid black;
+    height: 50vh;
+   margin: auto;
+   margin-top: 40px;
+   overflow: scroll;
+   
+   
+}
+
+header > img{
+    width: 19px;
+    height: 10px;
+    margin-top: 10px;
+   
+}
+header>p{
+    margin-top: 5px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    /* border-bottom: 1px solid rgb(172, 167, 167); */
+}
+
+.status> img{
+    width: 40px;
+    border-radius: 50%;
+    
+}
+h6{
+    margin-top: 5px;
+}
+
+.post > img{
+     width: 18vw;
+     /* display: none; */
+}
+
+footer > img{
+    width: 19px;
+    height: 10px;
+    padding: 0 7px;
+}
+footer{
+    position: relative;
+    top: 50px;
+   
+}
+
+.round{
+    border-radius: 50%;
+}

@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+button{
+    width: 20vw;
+    height: 10vh;
+    background-color: #11915F;
+    color: whitesmoke;
+
+}
+button:hover{
+    background-color: #10973f;
+}
+
+.note{
+    height: 20vh;
+    background-color: #eeee;
+    margin-top: 10px;
+    width: 20vw;
+}
+.note:hover{
+    background-color: wheat;
+}
+
+.note-explanation{
+    float: right;
+    width: 78vw;
+    background-color: red;
+   border-left: 1px solid black;
+   height: 100vh;
+   position: relative;
+   top: -331px;
+   display: none;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    text-align: center;
+    /* color: rgba(214, 194, 194, 0.933); */
+    font-size: 2rem;
+    position: relative;
+    top: -331px;
+  
+}
+footer{
+   position: relative;
+   top: 490px;
+   float: right;
+}

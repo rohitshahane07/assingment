@@ -5,7 +5,12 @@ const todo = [];
 
 const render = function(){
     
-    parent_contaner = document.getElementById('list_container');
+  
+
+    const parent_contaner = document.getElementById('list_container');
+
+    parent_contaner.innerHTML= ''
+    
 
     for(let i=0; i<todo.length ; i += 1){
 
@@ -31,3 +36,5 @@ const add = function(){
 }
 const btn = document.getElementById('add_btn');
 btn.addEventListener('click', add)
+
+
